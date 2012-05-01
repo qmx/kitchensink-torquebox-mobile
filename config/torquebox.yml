@@ -4,3 +4,5 @@
 # for all configuration options.
 web:
   context: "/"
+ruby:
+  version: 1.9
