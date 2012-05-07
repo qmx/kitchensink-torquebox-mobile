@@ -1,0 +1,2 @@
+unset JBOSS_HOME
+rvm use jruby-1.6.7@torquebox
