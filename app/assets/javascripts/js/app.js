@@ -78,7 +78,7 @@ function registerMember(memberData) {
             updateMemberTable();
         },
         error: function(error) {
-            if ((error.status == 409) || (error.status == 400)) {
+            if ((error.status == 409) || (error.status == 400) || (error.status == 422)) {
                 //console.log("Validation error registering user!");
 
                 var errorMsg = $.parseJSON(error.responseText);
