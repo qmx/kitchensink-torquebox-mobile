@@ -1,6 +1,5 @@
 KitchensinkTorqueboxMobile::Application.routes.draw do
-  get "members/index"
-
+  resources :members
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
