@@ -39,5 +39,5 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug'
 
-gem "torquebox", "2.0.1"
-gem "torquebox-rake-support", "2.0.1"
+gem "torquebox", "2.0.3"
+gem "torquebox-rake-support", "2.0.3"
